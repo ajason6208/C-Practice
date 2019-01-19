@@ -1,0 +1,9 @@
+﻿  main.cpp
+d:\c++code\multi_thread_async_future\multi_thread_async_future\main.cpp(33): error C3873: '0x2013': this character is not allowed as a first character of an identifier
+d:\c++code\multi_thread_async_future\multi_thread_async_future\main.cpp(33): error C2146: syntax error: missing ';' before identifier '–'
+d:\c++code\multi_thread_async_future\multi_thread_async_future\main.cpp(33): error C2065: '–': undeclared identifier
+d:\c++code\multi_thread_async_future\multi_thread_async_future\main.cpp(33): error C2146: syntax error: missing ';' before identifier 'tpStart'
+d:\c++code\multi_thread_async_future\multi_thread_async_future\main.cpp(36): error C2672: 'std::chrono::duration_cast': no matching overloaded function found
+d:\c++code\multi_thread_async_future\multi_thread_async_future\main.cpp(36): error C2784: '_To std::chrono::duration_cast(const std::chrono::duration<_Rep,_Period> &)': could not deduce template argument for 'const std::chrono::duration<_Rep,_Period> &' from 'std::chrono::steady_clock::time_point'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.11.25503\include\chrono(86): note: see declaration of 'std::chrono::duration_cast'
+d:\c++code\multi_thread_async_future\multi_thread_async_future\main.cpp(36): error C2228: left of '.count' must have class/struct/union
